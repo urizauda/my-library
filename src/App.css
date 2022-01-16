@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Shadows+Into+Light&display=swap');
+
+body {
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+a {
+  display: flex;
+  flex-flow: column;
+  margin: 1%;
+  text-decoration: none;
+  border-left: 5px solid lightblue;
+  font-size: larger;
+}
+
+a:hover {
+  background-color: rgba(173, 216, 230, 0.411);
+}
+
+.logOut {
+  float: right;
+  background-color: white;
+  color: red;
+  margin-right: 1%;
+}
+
+form {
+  text-align: center;
+}
+
+.loginPlusRegister {
+  box-shadow: 0px 0px 8px 5px lightblue;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: white;
+  width: 30%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-left: 32%;
+  margin-top: 6%;
+  padding: 40px;
+}
+
+input[type="password"], input[type="email"] {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

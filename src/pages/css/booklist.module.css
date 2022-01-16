@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+    border: 1px solid lightblue;
+    width: 90%;
+    justify-content: center;
+    margin: 1%;
+    align-items: flex-start;
+}
+
+.img {
+    justify-content: flex-start;
+    width: 10%;
+    height: 30vh;
+    float: left;
+    margin: 2%;
+}
+
+.content {
+    width: 70%;
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    justify-content: flex-start;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-right: 5%;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.search {
+    width: 40%;
+    justify-content: center;
+    background-color: rgba(121, 209, 235, 0.267);
+    border-radius: 5px;
+}
+
+label {
+    margin-left: 28%;
+}
+
+button {
+    border-radius: 50em;
+    border: none;
+    cursor: pointer;
+}
+
+.addBtn {
+    margin-left: 110.2%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+.deleteBtn {
+    margin-left: 100%;
+    margin-bottom: 1%;
+    background-color: white;
+}
+
+.moreBooksBtn {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin-left: 48%;
+    align-items: center;
+    padding: 2px;
+}
+
+.addBtn:hover {
+    background-color: rgb(16, 16, 243);
+    color: white;
+}
+
+.deleteBtn:hover {
+    background-color: red;
+    color: white;
+}
+
+.moreBooksBtn:hover {
+    background-color: green;
+    color: white;
+}
+
+.starRating {
+    margin-right: 20px;
+    display: flex;
+}
+
+.star {
+    justify-content: left;
+}
+
+.addComment {
+background-color: white;
+font-size: small;
+}
+
+.addComment:hover {
+    background-color: lime;
+    color: white;
+}
+
+.showComment {
+    margin-left: 2%;
+}
